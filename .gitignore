@@ -1,0 +1,37 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Watermark/*
+!/Watermark/task/
+/Watermark/task/*
+!/Watermark/task/src/
+!/Watermark/task/build.gradle
+!/Watermark/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/Call stack/Follow the call stack/out/
+/Topics/Call stack/Follow the call stack/out/production/classes/
+/Topics/Debugging techniques/Find the error/out/
+/Topics/Debugging techniques/Find the error/out/production/classes/
+/Topics/Errors in programs/Fix compile-time errors/out/
+/Topics/Errors in programs/Fix compile-time errors/out/production/classes/
+/Topics/Lambda expressions/Polynomial/out/
+/Topics/Lambda expressions/Polynomial/out/production/classes/
+/Topics/Object declarations/Me/out/
+/Topics/Object declarations/Me/out/production/classes/
+/Topics/The try-catch statement/Integer division/out/
+/Topics/The try-catch statement/Integer division/out/production/classes/
+/Topics/What is an exception/Cause an exception/out/
+/Topics/What is an exception/Cause an exception/out/production/classes/
